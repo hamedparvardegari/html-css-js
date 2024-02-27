@@ -1,12 +1,9 @@
 * {
     box-sizing: border-box;
+    margin: 0px;
 }
 #page-title{
     text-align: center;
-}
-.grid{
-    background-color: gray;
-    padding:15px;
 }
 
 #first-title{
@@ -19,14 +16,17 @@
 #third-title{
     background-color: #e5d198;
 }
-
-
+.row{
+    margin: 15px;
+}
 .content{
+    padding-left: 15px;
+    padding-bottom: 15px;
     background-color: gray;
     border: 2px solid black;
 }
 .explain{
-    margin-left: 5px;
+    margin-top: 15px;
 }
 div>.title{
     position: relative;
@@ -39,7 +39,7 @@ div>.title{
     border-left: 2px solid black;
 }
 
-.col-lg-4{
+.grid{
     float: left;
     padding: 10px;
 }
