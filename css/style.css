@@ -1,21 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+#page-title{
+    text-align: center;
+}
+.grid{
+    background-color: gray;
+    padding:15px;
+}
 
+#first-title{
+    background-color: #d59898;
+}
+#second-title{
+    background-color: #c14543;
+}
 
-
-
-
-
-
-@media (min-width:992px){
-
+#third-title{
+    background-color: #e5d198;
 }
 
 
-@media (min-width:768px) and (max-width:991px){
-
+.content{
+    background-color: gray;
+    border: 2px solid black;
+}
+.explain{
+    margin-left: 5px;
+}
+div>.title{
+    position: relative;
+    width: 30%;
+    top: 0px;
+    left: 70%;
+    padding: 5px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
 }
 
-
-
-@media (max-width:767px){
-
+.col-lg-4{
+    float: left;
+    padding: 10px;
 }
+
+@media (min-width:992px) {
+    .col-lg-4{
+        width: 33.33%;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .col-md-6{
+        width: 50%;
+    }
+    .col-md-12{
+        width: 100%;
+    }
+}
+
+@media (max-width:767px) {}
