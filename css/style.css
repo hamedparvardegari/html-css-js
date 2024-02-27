@@ -1,7 +1,21 @@
-.row{
-    margin-bottom: 15px;
+
+
+
+
+
+
+
+@media (min-width:992px){
+
 }
-.row>div{
-    border: 2px solid red;
-    background-color: gray;
+
+
+@media (min-width:768px) and (max-width:991px){
+
+}
+
+
+
+@media (max-width:767px){
+
 }
